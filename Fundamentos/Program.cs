@@ -18,4 +18,6 @@ using Fundamentos.EstruturaCondicional;
 //executor.Executar();
 
 
-LacoRe
+//LacoRe
+
+//LacoRepeticaoFor executar
