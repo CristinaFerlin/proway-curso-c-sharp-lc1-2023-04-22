@@ -17,5 +17,5 @@ using Fundamentos.EstruturaCondicional;
 //EstruturaCondicionalOu executor = new EstruturaCondicionalOu();
 //executor.Executar();
 
-EstruturaCondicionalAvancada executor = new EstruturaCondicionalAvancada();
-executor.Executar();
+
+LacoRe
