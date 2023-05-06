@@ -7,7 +7,7 @@ namespace Fundamentos.EstruturaCondicional
         public void Executar()
         {
             // INPUTS
-            // byte 0..255, short 32768..32767, int -2bi..2bi e long
+            // byte 0..255, short -32768..32767, int -2bi..2bi e long
             // byte Convert.ToByte
             // short Convert.ToInt16
             // int Convert.ToInt32

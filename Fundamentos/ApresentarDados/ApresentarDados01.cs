@@ -116,7 +116,6 @@ namespace Fundamentos.ApresentarDados
             Console.WriteLine("Letra: " + letra);
 
             // Link do Miro com os exemplos do prof Francisco https://bit.ly/3nRV19f
-
         }
     }
 }
