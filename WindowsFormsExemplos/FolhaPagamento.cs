@@ -1,4 +1,4 @@
-﻿namespace Fundamentos.OrientacaoObjetos
+﻿namespace WindowsFormsExemplos
 {
     internal class FolhaPagamento
     {
