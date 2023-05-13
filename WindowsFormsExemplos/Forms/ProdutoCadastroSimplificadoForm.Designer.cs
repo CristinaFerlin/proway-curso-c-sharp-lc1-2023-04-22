@@ -28,89 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelListaProdutos = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.labelNome = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.labelQuantidade = new System.Windows.Forms.Label();
+            this.labelPrecoUnitario = new System.Windows.Forms.Label();
+            this.labelListaProdutos = new System.Windows.Forms.Label();
+            this.buttonSalvar = new System.Windows.Forms.Button();
+            this.textBoxPrecoUnitario = new System.Windows.Forms.TextBox();
+            this.textBoxQuantidade = new System.Windows.Forms.TextBox();
             this.textBoxNome = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ColumnNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnQuantidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnPreçoUnitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnPrecoUnitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnPreço = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.buttonApagar = new System.Windows.Forms.Button();
+            this.buttonEditar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // labelListaProdutos
-            // 
-            this.labelListaProdutos.AutoSize = true;
-            this.labelListaProdutos.Location = new System.Drawing.Point(29, 31);
-            this.labelListaProdutos.Name = "labelListaProdutos";
-            this.labelListaProdutos.Size = new System.Drawing.Size(98, 15);
-            this.labelListaProdutos.TabIndex = 0;
-            this.labelListaProdutos.Text = "Lista de Produtos";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(499, 140);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Preço Unitario";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // labelNome
             // 
             this.labelNome.AutoSize = true;
-            this.labelNome.Location = new System.Drawing.Point(499, 39);
+            this.labelNome.Location = new System.Drawing.Point(447, 9);
             this.labelNome.Name = "labelNome";
             this.labelNome.Size = new System.Drawing.Size(40, 15);
-            this.labelNome.TabIndex = 2;
+            this.labelNome.TabIndex = 0;
             this.labelNome.Text = "Nome";
             // 
-            // label4
+            // labelQuantidade
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(499, 90);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 15);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Quantidade";
+            this.labelQuantidade.AutoSize = true;
+            this.labelQuantidade.Location = new System.Drawing.Point(447, 53);
+            this.labelQuantidade.Name = "labelQuantidade";
+            this.labelQuantidade.Size = new System.Drawing.Size(69, 15);
+            this.labelQuantidade.TabIndex = 1;
+            this.labelQuantidade.Text = "Quantidade";
             // 
-            // button1
+            // labelPrecoUnitario
             // 
-            this.button1.Location = new System.Drawing.Point(607, 188);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.labelPrecoUnitario.AutoSize = true;
+            this.labelPrecoUnitario.Location = new System.Drawing.Point(447, 97);
+            this.labelPrecoUnitario.Name = "labelPrecoUnitario";
+            this.labelPrecoUnitario.Size = new System.Drawing.Size(82, 15);
+            this.labelPrecoUnitario.TabIndex = 2;
+            this.labelPrecoUnitario.Text = "Preço Unitário";
             // 
-            // textBox1
+            // labelListaProdutos
             // 
-            this.textBox1.Location = new System.Drawing.Point(582, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 2;
+            this.labelListaProdutos.AutoSize = true;
+            this.labelListaProdutos.Location = new System.Drawing.Point(12, 9);
+            this.labelListaProdutos.Name = "labelListaProdutos";
+            this.labelListaProdutos.Size = new System.Drawing.Size(82, 15);
+            this.labelListaProdutos.TabIndex = 3;
+            this.labelListaProdutos.Text = "Lista Produtos";
             // 
-            // textBox2
+            // buttonSalvar
             // 
-            this.textBox2.Location = new System.Drawing.Point(582, 132);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 3;
+            this.buttonSalvar.Location = new System.Drawing.Point(713, 144);
+            this.buttonSalvar.Name = "buttonSalvar";
+            this.buttonSalvar.Size = new System.Drawing.Size(75, 23);
+            this.buttonSalvar.TabIndex = 4;
+            this.buttonSalvar.Text = "Salvar";
+            this.buttonSalvar.UseVisualStyleBackColor = true;
+            this.buttonSalvar.Click += new System.EventHandler(this.buttonSalvar_Click);
+            // 
+            // textBoxPrecoUnitario
+            // 
+            this.textBoxPrecoUnitario.Location = new System.Drawing.Point(447, 115);
+            this.textBoxPrecoUnitario.Name = "textBoxPrecoUnitario";
+            this.textBoxPrecoUnitario.Size = new System.Drawing.Size(341, 23);
+            this.textBoxPrecoUnitario.TabIndex = 3;
+            // 
+            // textBoxQuantidade
+            // 
+            this.textBoxQuantidade.Location = new System.Drawing.Point(447, 71);
+            this.textBoxQuantidade.Name = "textBoxQuantidade";
+            this.textBoxQuantidade.Size = new System.Drawing.Size(341, 23);
+            this.textBoxQuantidade.TabIndex = 2;
             // 
             // textBoxNome
             // 
-            this.textBoxNome.Location = new System.Drawing.Point(582, 31);
+            this.textBoxNome.Location = new System.Drawing.Point(447, 27);
             this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(100, 23);
+            this.textBoxNome.Size = new System.Drawing.Size(341, 23);
             this.textBoxNome.TabIndex = 1;
             // 
             // dataGridView1
@@ -121,14 +121,14 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNome,
             this.ColumnQuantidade,
-            this.ColumnPreçoUnitario,
+            this.ColumnPrecoUnitario,
             this.ColumnPreço});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 82);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 53);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(445, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(429, 395);
             this.dataGridView1.TabIndex = 8;
             // 
             // ColumnNome
@@ -143,11 +143,11 @@
             this.ColumnQuantidade.Name = "ColumnQuantidade";
             this.ColumnQuantidade.ReadOnly = true;
             // 
-            // ColumnPreçoUnitario
+            // ColumnPrecoUnitario
             // 
-            this.ColumnPreçoUnitario.HeaderText = "Preço Unitário";
-            this.ColumnPreçoUnitario.Name = "ColumnPreçoUnitario";
-            this.ColumnPreçoUnitario.ReadOnly = true;
+            this.ColumnPrecoUnitario.HeaderText = "Preço Unitário";
+            this.ColumnPrecoUnitario.Name = "ColumnPrecoUnitario";
+            this.ColumnPrecoUnitario.ReadOnly = true;
             // 
             // ColumnPreço
             // 
@@ -155,40 +155,42 @@
             this.ColumnPreço.Name = "ColumnPreço";
             this.ColumnPreço.ReadOnly = true;
             // 
-            // button2
+            // buttonApagar
             // 
-            this.button2.Location = new System.Drawing.Point(340, 40);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Apagar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonApagar.Location = new System.Drawing.Point(366, 19);
+            this.buttonApagar.Name = "buttonApagar";
+            this.buttonApagar.Size = new System.Drawing.Size(75, 23);
+            this.buttonApagar.TabIndex = 9;
+            this.buttonApagar.Text = "Apagar";
+            this.buttonApagar.UseVisualStyleBackColor = true;
+            this.buttonApagar.Click += new System.EventHandler(this.buttonApagar_Click);
             // 
-            // button3
+            // buttonEditar
             // 
-            this.button3.Location = new System.Drawing.Point(244, 40);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Editar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonEditar.Location = new System.Drawing.Point(285, 19);
+            this.buttonEditar.Name = "buttonEditar";
+            this.buttonEditar.Size = new System.Drawing.Size(75, 23);
+            this.buttonEditar.TabIndex = 10;
+            this.buttonEditar.Text = "Editar";
+            this.buttonEditar.UseVisualStyleBackColor = true;
+            this.buttonEditar.Click += new System.EventHandler(this.buttonEditar_Click);
             // 
             // ProdutoCadastroSimplificadoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.buttonEditar);
+            this.Controls.Add(this.buttonApagar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBoxNome);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.labelNome);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBoxQuantidade);
+            this.Controls.Add(this.textBoxPrecoUnitario);
+            this.Controls.Add(this.buttonSalvar);
             this.Controls.Add(this.labelListaProdutos);
+            this.Controls.Add(this.labelPrecoUnitario);
+            this.Controls.Add(this.labelQuantidade);
+            this.Controls.Add(this.labelNome);
             this.Name = "ProdutoCadastroSimplificadoForm";
             this.Text = "ProdutoCadastroSimplificadoForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -199,20 +201,20 @@
 
         #endregion
 
-        private Label labelListaProdutos;
-        private Label label2;
         private Label labelNome;
-        private Label label4;
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private Label labelQuantidade;
+        private Label labelPrecoUnitario;
+        private Label labelListaProdutos;
+        private Button buttonSalvar;
+        private TextBox textBoxPrecoUnitario;
+        private TextBox textBoxQuantidade;
         private TextBox textBoxNome;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn ColumnNome;
         private DataGridViewTextBoxColumn ColumnQuantidade;
-        private DataGridViewTextBoxColumn ColumnPreçoUnitario;
+        private DataGridViewTextBoxColumn ColumnPrecoUnitario;
         private DataGridViewTextBoxColumn ColumnPreço;
-        private Button button2;
-        private Button button3;
+        private Button buttonApagar;
+        private Button buttonEditar;
     }
 }

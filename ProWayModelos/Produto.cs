@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProWayModelos
 {
-    internal class Produto
+    public class Produto
     {
-        public
+        public string Nome;
+        public int Quantidade;
+        public double ValorUnitario;
     }
 }

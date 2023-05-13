@@ -28,27 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonFolhaPagamento = new System.Windows.Forms.Button();
             this.buttonCadastroSimplificadoProduto = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonFolhaPagamento
             // 
-            this.button1.Location = new System.Drawing.Point(139, 148);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 188);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Calcular Folha de Pagamento";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonFolhaPagamento.Location = new System.Drawing.Point(12, 12);
+            this.buttonFolhaPagamento.Name = "buttonFolhaPagamento";
+            this.buttonFolhaPagamento.Size = new System.Drawing.Size(145, 135);
+            this.buttonFolhaPagamento.TabIndex = 0;
+            this.buttonFolhaPagamento.Text = "Folha Pagamento";
+            this.buttonFolhaPagamento.UseVisualStyleBackColor = true;
+            this.buttonFolhaPagamento.Click += new System.EventHandler(this.buttonFolhaPagamento_Click);
             // 
             // buttonCadastroSimplificadoProduto
             // 
-            this.buttonCadastroSimplificadoProduto.Location = new System.Drawing.Point(475, 226);
+            this.buttonCadastroSimplificadoProduto.Location = new System.Drawing.Point(163, 12);
             this.buttonCadastroSimplificadoProduto.Name = "buttonCadastroSimplificadoProduto";
-            this.buttonCadastroSimplificadoProduto.Size = new System.Drawing.Size(142, 86);
+            this.buttonCadastroSimplificadoProduto.Size = new System.Drawing.Size(143, 135);
             this.buttonCadastroSimplificadoProduto.TabIndex = 1;
             this.buttonCadastroSimplificadoProduto.Text = "Cadastro Simplificado Produto";
             this.buttonCadastroSimplificadoProduto.UseVisualStyleBackColor = true;
+            this.buttonCadastroSimplificadoProduto.Click += new System.EventHandler(this.buttonCadastroSimplificadoProduto_Click);
             // 
             // MenuPrincipal
             // 
@@ -56,17 +58,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonCadastroSimplificadoProduto);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonFolhaPagamento);
             this.Name = "MenuPrincipal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "MenuPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Sistema Windows Forms";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Button button1;
+        private Button buttonFolhaPagamento;
         private Button buttonCadastroSimplificadoProduto;
     }
 }
