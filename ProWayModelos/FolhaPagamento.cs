@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsExemplos
+﻿namespace PorWayModelos
 {
     internal class FolhaPagamento
     {
