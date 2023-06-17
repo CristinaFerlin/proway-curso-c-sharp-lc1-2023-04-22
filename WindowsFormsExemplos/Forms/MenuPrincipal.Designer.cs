@@ -31,6 +31,8 @@
             buttonFolhaPagamento = new Button();
             buttonCadastroSimplificadoProduto = new Button();
             buttonCadastroFilmes = new Button();
+            buttonCadastroSimplificadoProdutoBancoDados = new Button();
+            buttonListaProdutos = new Button();
             SuspendLayout();
             // 
             // buttonFolhaPagamento
@@ -65,11 +67,33 @@
             buttonCadastroFilmes.UseVisualStyleBackColor = true;
             buttonCadastroFilmes.Click += buttonCadastroFilmes_Click;
             // 
+            // buttonCadastroSimplificadoProdutoBancoDados
+            // 
+            buttonCadastroSimplificadoProdutoBancoDados.Location = new Point(542, 16);
+            buttonCadastroSimplificadoProdutoBancoDados.Name = "buttonCadastroSimplificadoProdutoBancoDados";
+            buttonCadastroSimplificadoProdutoBancoDados.Size = new Size(171, 180);
+            buttonCadastroSimplificadoProdutoBancoDados.TabIndex = 3;
+            buttonCadastroSimplificadoProdutoBancoDados.Text = "Cadastro Simplificado Produto Bando Dados";
+            buttonCadastroSimplificadoProdutoBancoDados.UseVisualStyleBackColor = true;
+            buttonCadastroSimplificadoProdutoBancoDados.Click += buttonCadastroSimplificadoProdutoBancoDados_Click;
+            // 
+            // buttonListaProdutos
+            // 
+            buttonListaProdutos.Location = new Point(9, 398);
+            buttonListaProdutos.Name = "buttonListaProdutos";
+            buttonListaProdutos.Size = new Size(171, 180);
+            buttonListaProdutos.TabIndex = 4;
+            buttonListaProdutos.Text = "Lista de Produtos";
+            buttonListaProdutos.UseVisualStyleBackColor = true;
+            buttonListaProdutos.Click += buttonListaProdutos_Click;
+            // 
             // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
+            Controls.Add(buttonListaProdutos);
+            Controls.Add(buttonCadastroSimplificadoProdutoBancoDados);
             Controls.Add(buttonCadastroFilmes);
             Controls.Add(buttonCadastroSimplificadoProduto);
             Controls.Add(buttonFolhaPagamento);
@@ -85,5 +109,7 @@
         private Button buttonFolhaPagamento;
         private Button buttonCadastroSimplificadoProduto;
         private Button buttonCadastroFilmes;
+        private Button buttonCadastroSimplificadoProdutoBancoDados;
+        private Button buttonListaProdutos;
     }
 }
